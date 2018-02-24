@@ -14,3 +14,8 @@ Nodejs is an opensorce Javascript Runtime (executes javascript code), built upon
 - Connects with database
 - Communicate over the internet
 - Accepts requests and send responses.
+
+# Section 4:
+
+- Functions are first-class, so you can assign them to variables, pass as arguments, etc.
+- Modules are pieces of code that does not impact other pieces of code in a program. Ecmascript 6 support modules, but before it, javascript didn't had an official way to set them. Nodejs introduced modules into js, following a pattern called 'commonjs', which was a very used workaround.
