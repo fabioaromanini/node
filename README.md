@@ -9,7 +9,7 @@ Follows ECMASCRIPT standard.
 
 ## Session 3:
 
-Nodejs is a opensorce Javascript Runtime (executes javascript code), built upon V8. As V8, Nodejs is also written in C++, but it also haves js code. It's aimed to suport servers, so it adds functionalities to Javascript, like:
+Nodejs is an opensorce Javascript Runtime (executes javascript code), built upon V8. As V8, Nodejs is also written in C++, but it also haves js code. It's aimed to suport servers, so it adds functionalities to Javascript, like:
 - Deals with files
 - Connects with database
 - Communicate over the internet
