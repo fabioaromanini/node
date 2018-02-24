@@ -3,7 +3,7 @@ Repository to store everything I'm learning on the course https://www.udemy.com/
 
 ## Session 2:
 
-V8 is a opensource Javascript Engine (turns Javascript code into machine language), built to power Google Chrome.
+V8 is an opensource Javascript Engine (turns Javascript code into machine language), built to power Google Chrome.
 It's written in C++, and is easily integrated into other C++ programs.
 Follows ECMASCRIPT standard.
 
