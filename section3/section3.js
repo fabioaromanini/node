@@ -1,4 +1,4 @@
-var a = "Hello, ";
-var b = "world!";
+var a = 'Hello, ';
+var b = 'world!';
 
 console.log(a + b);

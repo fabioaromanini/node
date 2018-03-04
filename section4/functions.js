@@ -7,7 +7,7 @@ function updateCounter() {
 }
 
 function greet() {
-    console.log("hello!");
+    console.log('hello!');
     console.log(updateCounter());
 }
 
@@ -26,15 +26,15 @@ helper(greet);
 
 // function expression
 var greet2 = function(name) {
-    console.log("Hello " + (name == undefined ? "anonymous!" : name));
+    console.log('Hello ' + (name == undefined ? 'anonymous!' : name));
     console.log(updateCounter());
 }
 
-greet2("Fabio");
+greet2('Fabio');
 helper(greet2);
 
-// function "on the fly"
+// function 'on the fly'
 helper(function () {
-    console.log("on the fly!");
+    console.log('on the fly!');
     console.log(updateCounter());
 })

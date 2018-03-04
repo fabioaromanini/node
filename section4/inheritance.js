@@ -2,10 +2,10 @@ function Person(name) {
     if (name !== undefined) {
         this.name = name;
     } else {
-        this.name = "Anonymous";
+        this.name = 'Anonymous';
     }
     this.salute = function() {
-        console.log("Hi!");
+        console.log('Hi!');
     };
 }
 
@@ -13,14 +13,14 @@ var person1 = new Person();
 person1.salute();
 
 Person.prototype.safeGreet = function() {
-    console.log("Hello, " + this.name);
+    console.log('Hello, ' + this.name);
 };
 
 Person.prototype.unsafeGreet = function() {
-    console.log("Hello, " + name);
+    console.log('Hello, ' + name);
 };
 
-var name = "batata";
+var name = 'batata';
 person1.safeGreet();
 person1.unsafeGreet();
 console.log(person1.__proto__);
