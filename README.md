@@ -27,3 +27,4 @@ Nodejs is an opensorce Javascript Runtime (executes javascript code), built upon
 * Not only js files can be required! If a module is too complex, it may be structured inside a folder with a index.js file inside it. Also, it is possible to load simple data from json files.
 * In js, just like in almost every other language, there are ways to encapsulate your code, choosing what to export. This is called the Revealing Module Pattern. 
 * When working with js objects, if two variables point to the same object in memory, and one of the is reassigned, the object will not be lost! An objects originally assigned to a variable can only be altered by other variables, if one of it's properties are altered. Even if the first variable is reassigned, the others will still point to the same spot in memory.
+* Node contains core native modules that can be required by your application, like require('util'). For more info on those, https://nodejs.org/dist/latest-v9.x/docs/api/
