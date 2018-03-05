@@ -10,6 +10,7 @@ Follows ECMASCRIPT standard.
 ### Section 3:
 
 Nodejs is an opensorce Javascript Runtime (executes javascript code), built upon V8. As V8, Nodejs is also written in C++, but it also haves js code. It's aimed to suport servers, so it adds functionalities to Javascript, like:
+* Organize code in reusable pieces
 * Deals with files
 * Connects with database
 * Communicate over the internet
@@ -28,3 +29,5 @@ Nodejs is an opensorce Javascript Runtime (executes javascript code), built upon
 * In js, just like in almost every other language, there are ways to encapsulate your code, choosing what to export. This is called the Revealing Module Pattern. 
 * When working with js objects, if two variables point to the same object in memory, and one of the is reassigned, the object will not be lost! An objects originally assigned to a variable can only be altered by other variables, if one of it's properties are altered. Even if the first variable is reassigned, the others will still point to the same spot in memory.
 * Node contains core native modules that can be required by your application, like require('util'). For more info on those, https://nodejs.org/dist/latest-v9.x/docs/api/
+
+### Section 5
